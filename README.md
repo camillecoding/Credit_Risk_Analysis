@@ -40,5 +40,7 @@ It is important for lending institutions to examine the full profile of a potent
 <img width="733" alt="Screen Shot 2022-04-09 at 11 33 47 AM" src="https://user-images.githubusercontent.com/95657458/162580810-437e5f45-8188-4aa8-835b-5add9a2e109d.png">
 
 ### Summary ###
-While precision is important, the sensitivity of the tests in crucial, as this metric can indicate whether the test is generating too many false positives and negatives. 
+While precision is important, the sensitivity of the tests in crucial, as this metric can indicate whether the test is generating too many false positives and negatives. The test with the highest sensitivity was the Easy Ensemble Classifier, so this is my recommended method to evaluate credit risk. Undersampling and SMOTEENN generated the lowest confidence with 55% and 58% sensitivity respectively, so these methods should be avoided.
+
+
 
